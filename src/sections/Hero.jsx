@@ -94,8 +94,8 @@ export const Hero = () => {
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
               <span className="text-sm text-muted-foreground">{t('hero.followMe')} </span>
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
+                { icon: Github, href: "https://github.com/devjorgenino" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/jorgeninor21/" },
                 { icon: Twitter, href: "#" },
               ].map((social, idx) => (
                 <a
@@ -136,7 +136,7 @@ export const Hero = () => {
                 </div>
                 {/* Stats Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">5+</div>
+                  <div className="text-2xl font-bold text-primary">6+</div>
                   <div className="text-xs text-muted-foreground">
                     {t('hero.yearsExperience')}
                   </div>

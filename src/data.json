@@ -11,9 +11,9 @@
       "contactButton": "Contactarme"
     },
     "hero": {
-      "badge": "Ingeniero de Software • Especialista React",
+      "badge": "Desarrollador Frontend • Especialista React",
       "title": ["Creando experiencias", "digitales", "con", "precisión."],
-      "description": "Hola, soy Jorge Niño — un ingeniero de software especializado en React, Next.js y TypeScript. Construyo aplicaciones web escalables y de alto rendimiento que a los usuarios encantan.",
+      "description": "Hola, soy Jorge Niño — un desarrollador frontend especializado en React, Next.js y TypeScript. Construyo aplicaciones web escalables y de alto rendimiento que a los usuarios encantan.",
       "contactButton": "Contactarme",
       "downloadCV": "Descargar CV",
       "followMe": "Sígueme:",
@@ -21,7 +21,7 @@
       "yearsExperience": "Años Exp.",
       "technologiesTitle": "Tecnologías con las que trabajo",
       "scroll": "Desplazar",
-      "skills": ["React", "Next.js", "TypeScript", "Node.js", "GraphQL", "PostgreSQL", "MongoDB", "Redis", "Docker", "AWS", "Vercel", "Tailwind CSS", "Prisma", "Jest", "Cypress", "Figma", "Git", "GitHub Actions"]
+      "skills": ["React", "Next.js", "Vue.js", "Nuxt", "TypeScript", "Node.js", "GraphQL", "PostgreSQL", "MongoDB", "Docker", "AWS", "Vercel", "Tailwind CSS", "Prisma", "Jest", "Cypress", "Figma", "Git", "GitHub Actions"]
     },
     "language": {
       "spanish": "Español",
@@ -31,7 +31,7 @@
       "title": "Sobre mí",
       "headline": ["Construyendo el futuro,", "un componente a la vez."],
       "paragraphs": [
-        "Soy un ingeniero de software apasionado con más de 5 años de experiencia creando productos digitales que marcan la diferencia. Mi viaje comenzó con curiosidad por cómo funcionan las cosas en la web, y ha evolucionado hasta convertirme en un experto profundo en tecnologías frontend modernas.",
+        "Soy un desarrollador frontend apasionado con más de 6 años de experiencia creando productos digitales que marcan la diferencia. Mi viaje comenzó con curiosidad por cómo funcionan las cosas en la web, y ha evolucionado hasta convertirme en un experto profundo en tecnologías frontend modernas.",
         "Me especializo en React, Next.js y TypeScript, construyendo todo desde elegantes páginas de aterrizaje hasta complejas aplicaciones empresariales. Mi enfoque combina excelencia técnica con un ojo agudo para el diseño y la experiencia del usuario.",
         "Cuando no estoy programando, me encontrarás explorando nuevas tecnologías, contribuyendo a proyectos de código abierto, o compartiendo conocimiento con la comunidad de desarrolladores."
       ],
@@ -49,10 +49,12 @@
       "description": "Una selección de mi trabajo reciente, desde complejas aplicaciones web hasta herramientas innovadoras que resuelven problemas del mundo real.",
       "viewAllButton": "Ver Todos los Proyectos",
       "items": [
-        {"title": "Dashboard Fintech", "description": "Una plataforma integral de análisis financiero con visualización de datos en tiempo real, gestión de portafolio e insights impulsados por IA.", "image": "/projects/project1.png", "tags": ["React", "Typescript", "NodeJS"], "link": "#", "github": "#"},
-        {"title": "Plataforma E-Commerce", "description": "Una solución de comercio electrónico completa con gestión de inventario, procesamiento de pagos y panel de análisis.", "image": "/projects/project2.png", "tags": ["Next.js", "Stripe", "PostgreSQL", "Tailwind"], "link": "#", "github": "#"},
-        {"title": "Asistente de Escritura IA", "description": "Una herramienta inteligente de escritura impulsada por GPT-4, ayudando a los usuarios a crear mejor contenido más rápido.", "image": "/projects/project3.png", "tags": ["React", "OpenAI", "Python", "FastAPI"], "link": "#", "github": "#"},
-        {"title": "Herramienta de Gestión de Proyectos", "description": "Un espacio de trabajo colaborativo para equipos con actualizaciones en tiempo real, seguimiento de tareas e integraciones.", "image": "/projects/project4.png", "tags": ["Next.js", "Socket.io", "MongoDB", "Redis"], "link": "#", "github": "#"}
+        {"title": "ServicePad", "description": "ServicePad es una plataforma ERP SaaS que actualiza, agiliza y automatiza los procesos existentes de las Compañias Gestoras de contratos RTO/LTO. Ofreciendo a la industria de construcción portátil la administración eficiente de sus contratos. A diferencia de los competidores actuales, nos adaptamos a las necesidades del cliente a medida que evoluciona el marketplace.", "image": "/projects/servicepad-project.png", "tags": ["React", "Next.js", "Typescript", "NodeJS"], "link": "https://stage.servicepad.com/auth/login", "github": "https://github.com/devjorgenino/sp-frontend"},
+        {"title": "Rimac", "description": "Solución a un desafío técnico de frontend para la empresa Rimac, diseñado para demostrar habilidades de desarrollo en un entorno de trabajo simulado. El objetivo principal fue crear una aplicación web moderna y reactiva que cumpliera con los siguientes requisitos: maquetar un diseño proporcionado en Figma, consumir datos de una API REST y gestionar el estado de la aplicación de manera eficiente.", "image": "/projects/rimac-project.png", "tags": ["React", "Typescript", "SASS", "Context", "Tailwind", "API REST"], "link": "https://frontend-challenge-rimac-jorgenino.netlify.app/", "github": "https://github.com/devjorgenino/frontend-challenge-rimac"},
+        {"title": "Citas Médicas", "description": "Herramienta para reemplazar el agendamiento manual (papel/Excel) por una solución web o móvil que centralice la información de pacientes, médicos y horarios, mejorando la eficiencia y reduciendo errores en la gestión de citas médicas para clínicas y hospitales.", "image": "/projects/project3.png", "tags": ["React", "AI", "Python", "FastAPI", "PostgreSQL"], "link": "#", "github": "https://github.com/Randyavila/CitasMedicas"},
+        {"title": "VitaliaGym", "description": "Plataforma SaaS moderna diseñada para digitalizar, centralizar y automatizar la administración de gimnasios y centros de entrenamiento. Su objetivo es eliminar la gestión manual (Excel/papel), optimizar el control de acceso de los miembros y proporcionar a los dueños métricas financieras claras en tiempo real.", "image": "/projects/project4.png", "tags": ["Next.js", "Socket.io", "MongoDB", "Supabase"], "link": "#", "github": "#"},
+        {"title": "Mily", "description": "Mily es una App que utiliza la tecnología para unir a la familia. Con Mily los padres e hijos se sienten escuchados, rompiendo las barreras de comunicación que existen entre ellos.", "image": "/projects/project4.png", "tags": ["Angular", "IONIC", "MongoDB", "PostgreSQL", "Capacitor", "PHP"], "link": "#", "github": "https://github.com/devjorgenino/mily-app"},
+        {"title": "OpenCook", "description": "Tu marca de tecnología alimentaria, para ayudarte en los procesos del hogar o industria. Nuestra pasión es mantener saludable tu vida y tu bolsillo!!!.", "image": "/projects/opencook-project.jpg", "tags": ["PHP", "Bootstrap", "MongoDB", "PostgreSQL"], "link": "#", "github": "https://github.com/devjorgenino/membresia-opencook"}
       ]
     },
     "experience": {
@@ -60,20 +62,107 @@
       "headline": ["Experiencia que", "habla por sí sola."],
       "description": "Una línea de tiempo de mi crecimiento profesional, desde principiante curioso hasta ingeniero senior liderando equipos y construyendo productos a escala.",
       "items": [
-        {"period": "2022 — Presente", "role": "Ingeniero Frontend Senior", "company": "Tech Innovators Inc.", "description": "Liderando la arquitectura frontend para una suite de productos fintech. Implementé arquitectura de micro-frontends, reduje el tamaño del bundle en 40% y mentoricé a un equipo de 5 desarrolladores.", "technologies": ["React", "TypeScript", "Next.js", "GraphQL"], "current": true},
-        {"period": "2020 — 2022", "role": "Ingeniero Frontend", "company": "Digital Solutions Co.", "description": "Construí y mantuve múltiples aplicaciones React para clientes empresariales. Introduje prácticas de testing automatizado que mejoraron la cobertura de código al 85%.", "technologies": ["React", "Redux", "Jest", "Cypress"], "current": false},
-        {"period": "2019 — 2020", "role": "Desarrollador Junior", "company": "StartUp Labs", "description": "Contribuí al desarrollo de una plataforma SaaS desde MVP hasta producción. Colaboré con diseñadores para implementar componentes UI píxel-perfectos.", "technologies": ["React", "Node.js", "MongoDB", "AWS"], "current": false},
-        {"period": "2018 — 2019", "role": "Desarrollador Freelance", "company": "Trabajador Independiente", "description": "Entregué soluciones web personalizadas para pequeñas empresas y startups. Construí 15+ sitios web y aplicaciones, manejando todo desde el diseño hasta el despliegue.", "technologies": ["JavaScript", "PHP", "WordPress", "MySQL"], "current": false}
+        {"period": "2023 — 2025", "role": "Lider de Equipo", "company": "Servicepad", "description": "Liderando la arquitectura frontend para una suite de productos fintech. Implementé arquitectura de micro-frontends, reduje el tamaño del bundle en 40% y mentoricé a un equipo de 5 desarrolladores.", "technologies": ["React", "TypeScript", "Next.js", "GraphQL", "Jest", "Webpack", "Docker", "Kubernetes", "CI/CD", "Jira", "Confluence", "Bitbucket", "Slack", "Notion", "Google Workspace"], "current": true},
+        {"period": "2021 — 2025", "role": "Desarrollador Frontend Senior", "company": "Servicepad", "description": "Construí y mantuve múltiples aplicaciones React para clientes empresariales. Introduje prácticas de testing automatizado que mejoraron la cobertura de código al 85%.", "technologies": ["React", "TypeScript", "Next.js", "Redux", "Jest", "Cypress", "Storybook", "Figma", "Jira", "Confluence", "Bitbucket", "Notion", "Slack", "Google Workspace", "CI/CD"], "current": false},
+        {"period": "2018 — 2021", "role": "Desarrollador Web Frontend", "company": "Geekhack", "description": "Contribuí al desarrollo de una plataforma SaaS desde MVP hasta producción. Colaboré con diseñadores para implementar componentes UI píxel-perfectos.", "technologies": ["React", "Angullar", "Ionic", "Trello", "Jira", "Confluence", "Bitbucket", "Postgresql", "Node.js", "MongoDB", "AWS"], "current": false},
+        {"period": "2017 — 2021", "role": "Desarrollador Freelance", "company": "Trabajador Independiente", "description": "Entregué soluciones web personalizadas para pequeñas empresas y startups. Construí 15+ sitios web y aplicaciones, manejando todo desde el diseño hasta el despliegue.", "technologies": ["JavaScript", "PHP", "WordPress", "MySQL"], "current": false}
+
       ]
     },
     "testimonials": {
       "title": "Lo que dice la gente",
       "headline": ["Palabras amables de", "personas increíbles."],
       "items": [
-        {"quote": "Jorge es uno de los ingenieros más talentosos con los que he trabajado. Su atención al detalle y capacidad para traducir requisitos complejos en soluciones elegantes es notable.", "author": "Sarah Chen", "role": "CTO, Tech Innovators Inc.", "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"},
-        {"quote": "Trabajar con Jorge fue un cambio radical para nuestro proyecto. Entregó antes de lo programado con una calidad de código que estableció un nuevo estándar para nuestro equipo.", "author": "Michael Rodriguez", "role": "Product Manager, Digital Solutions", "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop"},
-        {"quote": "La experiencia de Jorge en React y TypeScript nos ayudó a reconstruir todo nuestro frontend en tiempo récord. Sus decisiones arquitectónicas continúan dando dividendos.", "author": "Emily Watson", "role": "Engineering Lead, StartUp Labs", "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"},
-        {"quote": "No solo es Jorge técnicamente brillante, sino que también es un comunicador fantástico y jugador de equipo. Elevó a todos a su alrededor.", "author": "David Kim", "role": "CEO, Innovation Hub", "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"}
+        {
+          "quote": "Jorge es uno de los ingenieros más talentosos con los que he trabajado. Su atención al detalle y capacidad para traducir requisitos complejos en soluciones elegantes es notable.",
+          "author": "Sarah Chen",
+          "role": "CTO, Tech Innovators Inc.",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
+        },
+        {
+          "quote": "Trabajar con Jorge fue un cambio radical para nuestro proyecto. Entregó antes de lo programado con una calidad de código que estableció un nuevo estándar para nuestro equipo.",
+          "author": "Michael Rodriguez",
+          "role": "Gerente de Producto, Digital Solutions",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop"
+        },
+        {
+          "quote": "La experiencia de Jorge en React y TypeScript nos ayudó a reconstruir todo nuestro frontend en tiempo récord. Sus decisiones arquitectónicas continúan dando dividendos.",
+          "author": "Emily Watson",
+          "role": "Líder de Ingeniería, StartUp Labs",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
+        },
+        {
+          "quote": "No solo es Jorge técnicamente brillante, sino que también es un comunicador fantástico y jugador de equipo. Elevó a todos a su alrededor.",
+          "author": "David Kim",
+          "role": "CEO, Innovation Hub",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+        },
+        {
+          "quote": "Jorge es una persona que logra enfocarse y ser muy productivo y esto resulta un valor grande hoy en día. En nuestra experiencia trabajando juntos, pude ser testigo de que Jorge es una persona detallista y dedicada con su trabajo, y lo recomiendo plenamente para cualquier proyecto. Lo hará de forma excelente. Además, cuenta con habilidades blandas y con una comunicación efectiva lo cual lo hace un team player que realmente resulta siendo un acierto total tenerlo en el equipo por el ambiente tan efectivo que se genera.",
+          "author": "Eduardo Manuel Rodriguez Lara",
+          "role": "Desarrollador Backend, Channel Payments",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHfytyItDz4Xw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1685323581383?e=1768435200&v=beta&t=biNhC0tBHoykDuYqJ8Ywm1mMlWaKU_YVU1hzD17iC8g"
+        },
+        {
+          "quote": "Excelente programador y colega de trabajo",
+          "author": "Abraham Duno",
+          "role": "Desarrollador Front-End, ServicePad",
+          "avatar": "https://media.licdn.com/dms/image/v2/D5603AQHduhgrD8uZ0w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1729696747936?e=1768435200&v=beta&t=aNVn2JxHIGFowUGCzF_R0nRcl0GtSyWdSPYUvqWr3Fo"
+        },
+        {
+          "quote": "Excelente compañero de trabajo, muy cooperativo y proactivo.",
+          "author": "José Pérez",
+          "role": "Desarrollador de back-end, ServicePad",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQGJHuEj0QP3FQ/profile-displayphoto-shrink_100_100/B4EZWQGPNbG0AU-/0/1741879310005?e=1768435200&v=beta&t=VC82VbBTtId6CT-sXueqKA73pgUHX_kkDQ7lgvcYNQI"
+        },
+        {
+          "quote": "Tuve el placer de trabajar junto a Jorge durante tres años y puedo decir con confianza que es un profesional excepcionalmente responsable y comprometido. Más allá de su fuerte ética laboral, Jorge posee un dominio impresionante del stack de desarrollo y tremendas habilidades técnicas, entregando consistentemente resultados de alta calidad. También es el tipo de persona en la que siempre puedes confiar para recibir apoyo, siempre dispuesto a echar una mano cuando sea necesario. Jorge sería un activo valioso para cualquier equipo.",
+          "author": "Diego Vielma",
+          "role": "Desarrollador Front-end Ssr, Galicia Seguros",
+          "avatar": "https://media.licdn.com/dms/image/v2/D5603AQHVHavRRL-fcw/profile-displayphoto-scale_100_100/B56ZtCXtUbIAAc-/0/1766345071789?e=1768435200&v=beta&t=AU096nKzLyASPZce3oYyv3HMxoNQTSiiIHt_6c9q-i4"
+        },
+        {
+          "quote": "Tuve la oportunidad de colaborar con Jorge Niño en distintos contextos profesionales, y siempre ha sido evidente su compromiso y dedicación en todo lo que hace. Una de las cualidades que más destaco de él es su capacidad para enfrentar los desafíos con calma, analizando cada situación con objetividad y tomando decisiones acertadas incluso bajo presión. Con una sólida trayectoria como desarrollador frontend, Jorge no solo demuestra un dominio técnico excepcional, sino también una gran capacidad de liderazgo. Su experiencia se refleja en la calidad de su trabajo, su enfoque estratégico y su habilidad para guiar a equipos hacia soluciones eficientes y bien fundamentadas. Es, sin duda, un profesional confiable, analítico y con una visión clara, cualidades que lo convierten en un gran aporte para cualquier equipo o proyecto.",
+          "author": "Juan Villarroel",
+          "role": "Desarrollador Full Stack, bnka",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQH6MS928SQCiw/profile-displayphoto-shrink_100_100/B4EZU.OlWIGgAU-/0/1740505765700?e=1768435200&v=beta&t=vSJ4k6Z3wu8sTLsZSJP600Vb1wWopHy7k0_YQUY3PwI"
+        },
+        {
+          "quote": "Recomiendo de todo corazón a Jorge a cualquier organización que valore tanto la experiencia técnica como la calidad humana. He tenido el privilegio de trabajar con él durante los últimos cuatro años, y puedo decir con total confianza que es un desarrollador front-end excepcional. Su gran dominio de las tecnologías actuales y su enfoque centrado en el usuario lo convierten en un activo inestimable para cualquier equipo de desarrollo. Lo que más admiro de Jorge es su espíritu de colaboración. Siempre está dispuesto a compartir conocimientos, apoyar a sus colegas y contribuir al éxito colectivo, incluso en condiciones de gran presión. Su capacidad de adaptación es igualmente impresionante: Jorge se adapta rápidamente a las nuevas tecnologías, las metodologías en evolución y los entornos de trabajo cambiantes sin comprometer su eficiencia ni su motivación. Espero de verdad que siga prosperando y aprovechando nuevas oportunidades profesionales: se merece todos los éxitos que se le presenten.",
+          "author": "Ana Hernández",
+          "role": "Analista de Negocios, ServicePad",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E35AQFYH0UBk7Jl7w/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1728963461500?e=1767542400&v=beta&t=gZZphu7AEJ2I-dpfHBqT7cMzwk-LtFnGQXmPcLMEB90"
+        },
+        {
+          "quote": "Jorge es un excelente compañero. Trabajamos juntos en la misma empresa. Es un chico muy responsable y muy bueno en lo que desarrolla.",
+          "author": "Inés Natera",
+          "role": "Desarrolladora Wordpress, Sting Marketing",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQE3vDSVt60bSQ/profile-displayphoto-scale_100_100/B4EZnE5ZjvIoAg-/0/1759945005949?e=1768435200&v=beta&t=s4FQjjFxyKsNZeggGk44vbTuFmcql4lcPm0neZDoeL8"
+        },
+        {
+          "quote": "Tuve el placer de trabajar con Jorge en Servicepad. Su talento lo hizo destacar como líder del equipo de desarrollo front-end durante un tiempo, en un momento pico para el desarrollo del MVP. Tiene habilidades usando node.js y typescript.",
+          "author": "Randy Avila Salazar",
+          "role": "Ingeniero DevOps, Plexus Tech",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQGrpzmFENk84A/profile-displayphoto-scale_100_100/B4EZsSm9tGGQAc-/0/1765543764456?e=1768435200&v=beta&t=xbbTxcN1SnR4YuZQeA8epgg3fUCkvaxxG7ioKMO90ww"
+        },
+        {
+          "quote": "He trabajado y estudiado junto a Jorge, y siempre ha demostrado ser una persona responsable, con buen criterio técnico y facilidad para trabajar en equipo. Cumple con sus tareas y contribuye de manera constante al desarrollo de los proyectos.",
+          "author": "Jesús Calderin",
+          "role": "Desarrollador de front-end, Alegra",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHihpYkcQsSog/profile-displayphoto-shrink_100_100/B4EZVe7MACGgAU-/0/1741054329244?e=1768435200&v=beta&t=j-mhFCW55TrMKaduwzc__Muai_dHD7Oy6pnP21-Delg"
+        },
+        {
+          "quote": "Su profesionalismo y habilidades técnicas realmente destacan. Es un desarrollador frontend sólido, un jugador de equipo confiable y entrega consistentemente trabajo de alta calidad. Estoy seguro de que será una adición valiosa para cualquier equipo de desarrollo.",
+          "author": "Pedro Flores",
+          "role": "Desarrollador Backend, ServicePad",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4D35AQGmeSrd9_v8oQ/profile-framedphoto-shrink_100_100/B4DZgvRHp3G8Ak-/0/1753139674078?e=1767542400&v=beta&t=u8Jy05ih1XJ2n1dpqvndFn4UvvwZMT9TQhXiS2-H17Q"
+        },
+        {
+          "quote": "Un desarrollador con gran creatividad, ingenio y liderazgo con la capacidad de abarcar problemas complejos de una manera eficaz y perspicaz. Jorge fue team lead y durante su tiempo trabajando en conjunto pude observar sus capacidades y habilidades por lo cual puedo dar fe de su trabajo y responsabilidad. Su habilidad de adaptar y diseñar se complementan una a la otra. sin más que agregar lo recomendaría para cualquier trabajo que involucre liderazgo, creatividad o desarrollo Frontend.",
+          "author": "Julio Moreno Yanes",
+          "role": "Ingeniero Python, FISOTEC",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E35AQFiKn2isfB0uQ/profile-framedphoto-shrink_100_100/B4EZbZZ_2jGkA0-/0/1747404193442?e=1767542400&v=beta&t=Wtr-XmrJAag5FZUUi-rlyi1FqyA1x3rORULGq6JPqow"
+        }
       ]
     },
     "contact": {
@@ -95,14 +184,14 @@
       "contactInfo": {
         "title": "Información de Contacto",
         "items": [
-          {"label": "Email", "value": "jorge@ejemplo.com", "href": "mailto:jorge@ejemplo.com"},
-          {"label": "Teléfono", "value": "+1 (555) 123-4567", "href": "tel:+15551234567"},
-          {"label": "Ubicación", "value": "San Francisco, CA", "href": "#"}
+          {"label": "Email", "value": "jorgenino.dev@gmail.com", "href": "mailto:jorgenino.dev@gmail.com"},
+          {"label": "Teléfono", "value": "+58 (412) 350-6984", "href": "tel:+584123506984"},
+          {"label": "Ubicación", "value": "Isla de Margarita, Venezuela", "href": "#"}
         ]
       },
       "availability": {
         "status": "Actualmente Disponible",
-        "description": "Actualmente estoy abierto a nuevas oportunidades y proyectos emocionantes. Ya sea que necesites un ingeniero a tiempo completo o un consultor freelance, ¡hablemos!"
+        "description": "Actualmente estoy abierto a nuevas oportunidades y proyectos emocionantes. Ya sea que necesites un desarrollador a tiempo completo o un consultor freelance, ¡hablemos!"
       },
       "successMessage": "¡Mensaje enviado con éxito! Te responderé pronto.",
       "errorMessage": "Error al enviar el mensaje. Por favor intenta nuevamente más tarde."
@@ -116,15 +205,15 @@
         {"href": "#contact", "label": "Contacto"}
       ],
       "social": [
-        {"icon": "Github", "href": "#", "label": "GitHub"},
-        {"icon": "Linkedin", "href": "#", "label": "LinkedIn"},
+        {"icon": "Github", "href": "https://github.com/devjorgenino", "label": "GitHub"},
+        {"icon": "Linkedin", "href": "https://www.linkedin.com/in/jorgeninor21/", "label": "LinkedIn"},
         {"icon": "Twitter", "href": "#", "label": "Twitter"}
       ]
     }
   },
   "en": {
     "navbar": {
-      "logo": "PM",
+      "logo": "JN",
       "links": [
         {"href": "#about", "label": "About"},
         {"href": "#projects", "label": "Projects"},
@@ -134,9 +223,9 @@
       "contactButton": "Contact Me"
     },
     "hero": {
-      "badge": "Software Engineer • React Specialist",
+      "badge": "Frontend Developer • React Specialist",
       "title": ["Crafting", "digital", "experiences with", "precision."],
-      "description": "Hi, I'm Jorge Niño — a software engineer specializing in React, Next.js, and TypeScript. I build scalable, performant web applications that users love.",
+      "description": "Hi, I'm Jorge Niño — a frontend developer specializing in React, Next.js, and TypeScript. I build scalable, performant web applications that users love.",
       "contactButton": "Contact Me",
       "downloadCV": "Download CV",
       "followMe": "Follow me:",
@@ -144,7 +233,7 @@
       "yearsExperience": "Years Exp.",
       "technologiesTitle": "Technologies I work with",
       "scroll": "Scroll",
-      "skills": ["React", "Next.js", "TypeScript", "Node.js", "GraphQL", "PostgreSQL", "MongoDB", "Redis", "Docker", "AWS", "Vercel", "Tailwind CSS", "Prisma", "Jest", "Cypress", "Figma", "Git", "GitHub Actions"]
+      "skills": ["React", "Next.js","Vue.js", "Nuxt", "TypeScript", "Node.js", "GraphQL", "PostgreSQL", "MongoDB", "Docker", "AWS", "Vercel", "Tailwind CSS", "Prisma", "Jest", "Cypress", "Figma", "Git", "GitHub Actions"]
     },
     "language": {
       "spanish": "Spanish",
@@ -154,7 +243,7 @@
       "title": "About Me",
       "headline": ["Building the future,", "one component at a time."],
       "paragraphs": [
-        "I'm a passionate software engineer with over 5 years of experience crafting digital products that make a difference. My journey started with a curiosity for how things work on the web, and it has evolved into a deep expertise in modern frontend technologies.",
+        "I'm a passionate frontend developer with over 6 years of experience crafting digital products that make a difference. My journey started with a curiosity for how things work on the web, and it has evolved into a deep expertise in modern frontend technologies.",
         "I specialize in React, Next.js, and TypeScript, building everything from sleek landing pages to complex enterprise applications. My approach combines technical excellence with a keen eye for design and user experience.",
         "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community."
       ],
@@ -172,10 +261,54 @@
       "description": "A selection of my recent work, from complex web applications to innovative tools that solve real-world problems.",
       "viewAllButton": "View All Projects",
       "items": [
-        {"title": "Fintech Dashboard", "description": "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.", "image": "/projects/project1.png", "tags": ["React", "Typescript", "NodeJS"], "link": "#", "github": "#"},
-        {"title": "E-Commerce Platform", "description": "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.", "image": "/projects/project2.png", "tags": ["Next.js", "Stripe", "PostgreSQL", "Tailwind"], "link": "#", "github": "#"},
-        {"title": "AI Writing Assistant", "description": "An intelligent writing tool powered by GPT-4, helping users create better content faster.", "image": "/projects/project3.png", "tags": ["React", "OpenAI", "Python", "FastAPI"], "link": "#", "github": "#"},
-        {"title": "Project Management Tool", "description": "A collaborative workspace for teams with real-time updates, task tracking, and integrations.", "image": "/projects/project4.png", "tags": ["Next.js", "Socket.io", "MongoDB", "Redis"], "link": "#", "github": "#"}
+        {
+          "title": "ServicePad",
+          "description": "ServicePad is a SaaS ERP platform that updates, streamlines, and automates existing processes for RTO/LTO Contract Management Companies. It offers the portable building industry efficient contract administration. Unlike current competitors, we adapt to client needs as the marketplace evolves.",
+          "image": "/projects/servicepad-project.png",
+          "tags": ["React", "Next.js", "Typescript", "NodeJS"],
+          "link": "https://stage.servicepad.com/auth/login",
+          "github": "https://github.com/devjorgenino/sp-frontend"
+        },
+        {
+          "title": "Rimac",
+          "description": "Solution to a frontend technical challenge for Rimac, designed to demonstrate development skills in a simulated work environment. The main objective was to create a modern and reactive web application that met the following requirements: implementing a design provided in Figma, consuming data from a REST API, and efficiently managing application state.",
+          "image": "/projects/rimac-project.png",
+          "tags": ["React", "Typescript", "SASS", "Context", "Tailwind", "API REST"],
+          "link": "https://frontend-challenge-rimac-jorgenino.netlify.app/",
+          "github": "https://github.com/devjorgenino/frontend-challenge-rimac"
+        },
+        {
+          "title": "Citas Médicas",
+          "description": "A tool to replace manual scheduling (paper/Excel) with a web or mobile solution that centralizes patient, doctor, and schedule information, improving efficiency and reducing errors in medical appointment management for clinics and hospitals.",
+          "image": "/projects/project3.png",
+          "tags": ["React", "AI", "Python", "FastAPI", "PostgreSQL"],
+          "link": "#",
+          "github": "https://github.com/Randyavila/CitasMedicas"
+        },
+        {
+          "title": "VitaliaGym",
+          "description": "Modern SaaS platform designed to digitize, centralize, and automate the administration of gyms and training centers. Its goal is to eliminate manual management (Excel/paper), optimize member access control, and provide owners with clear financial metrics in real-time.",
+          "image": "/projects/project4.png",
+          "tags": ["Next.js", "Socket.io", "MongoDB", "Supabase"],
+          "link": "#",
+          "github": "#"
+        },
+        {
+          "title": "Mily",
+          "description": "Mily is an App that uses technology to bring the family together. With Mily, parents and children feel heard, breaking down the communication barriers that exist between them.",
+          "image": "/projects/project4.png",
+          "tags": ["Angular", "IONIC", "MongoDB", "PostgreSQL", "Capacitor", "PHP"],
+          "link": "#",
+          "github": "https://github.com/devjorgenino/mily-app"
+        },
+        {
+          "title": "OpenCook",
+          "description": "Your food technology brand, helping you with household or industrial processes. Our passion is keeping your life and your wallet healthy!!!",
+          "image": "/projects/opencook-project.jpg",
+          "tags": ["PHP", "Bootstrap", "MongoDB", "PostgreSQL"],
+          "link": "#",
+          "github": "https://github.com/devjorgenino/membresia-opencook"
+        }
       ]
     },
     "experience": {
@@ -183,20 +316,106 @@
       "headline": ["Experience that", "speaks volumes."],
       "description": "A timeline of my professional growth, from curious beginner to senior engineer leading teams and building products at scale.",
       "items": [
-        {"period": "2022 — Present", "role": "Senior Frontend Engineer", "company": "Tech Innovators Inc.", "description": "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.", "technologies": ["React", "TypeScript", "Next.js", "GraphQL"], "current": true},
-        {"period": "2020 — 2022", "role": "Frontend Engineer", "company": "Digital Solutions Co.", "description": "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.", "technologies": ["React", "Redux", "Jest", "Cypress"], "current": false},
-        {"period": "2019 — 2020", "role": "Junior Developer", "company": "StartUp Labs", "description": "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.", "technologies": ["React", "Node.js", "MongoDB", "AWS"], "current": false},
-        {"period": "2018 — 2019", "role": "Freelance Developer", "company": "Self-Employed", "description": "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.", "technologies": ["JavaScript", "PHP", "WordPress", "MySQL"], "current": false}
+        {"period": "2023 — 2025", "role": "Team Lead", "company": "Servicepad", "description": "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.", "technologies": ["React", "TypeScript", "Next.js", "GraphQL", "Jest", "Webpack", "Docker", "Kubernetes", "CI/CD", "Jira", "Confluence", "Bitbucket", "Slack", "Notion", "Google Workspace"], "current": true},
+        {"period": "2021 — 2025", "role": "Senior Frontend Developer", "company": "Servicepad", "description": "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.", "technologies": ["React", "TypeScript", "Next.js", "Redux", "Jest", "Cypress", "Storybook", "Figma", "Jira", "Confluence", "Bitbucket", "Notion", "Slack", "Google Workspace", "CI/CD"], "current": false},
+        {"period": "2018 — 2021", "role": "Frontend Web Developer", "company": "Geekhack", "description": "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.", "technologies": ["React", "Angullar", "Ionic", "Trello", "Jira", "Confluence", "Bitbucket", "Postgresql", "Node.js", "MongoDB", "AWS"], "current": false},
+        {"period": "2017 — 2021", "role": "Freelance Developer", "company": "Self-Employed", "description": "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.", "technologies": ["JavaScript", "PHP", "WordPress", "MySQL"], "current": false}
       ]
     },
     "testimonials": {
       "title": "What People Say",
       "headline": ["Kind words from", "amazing people."],
       "items": [
-        {"quote": "Jorge is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.", "author": "Sarah Chen", "role": "CTO, Tech Innovators Inc.", "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"},
-        {"quote": "Working with Jorge was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.", "author": "Michael Rodriguez", "role": "Product Manager, Digital Solutions", "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop"},
-        {"quote": "Jorge's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.", "author": "Emily Watson", "role": "Engineering Lead, StartUp Labs", "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"},
-        {"quote": "Not only is Jorge technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.", "author": "David Kim", "role": "CEO, Innovation Hub", "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"}
+        {
+          "quote": "Jorge is one of the most talented engineers I have worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
+          "author": "Sarah Chen",
+          "role": "CTO, Tech Innovators Inc.",
+          "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
+        },
+        {
+          "quote": "Working with Jorge was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
+          "author": "Michael Rodriguez",
+          "role": "Product Manager, Digital Solutions",
+          "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop"
+        },
+        {
+          "quote": "Jorge's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
+          "author": "Emily Watson",
+          "role": "Engineering Lead, StartUp Labs",
+          "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
+        },
+        {
+          "quote": "Not only is Jorge technically brilliant, but he is also a fantastic communicator and team player. He uplifted everyone around him.",
+          "author": "David Kim",
+          "role": "CEO, Innovation Hub",
+          "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+        },
+        {
+          "quote": "Jorge is a person who manages to focus and be extremely productive, which is of great value today. In our experience working together, I witnessed that Jorge is detail-oriented and dedicated to his work, and I fully recommend him for any project. He will do an excellent job. Additionally, he has soft skills and effective communication, making him a team player who is truly a total asset to the team due to the effective environment he generates.",
+          "author": "Eduardo Manuel Rodriguez Lara",
+          "role": "Backend Developer, Channel Payments",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHfytyItDz4Xw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1685323581383?e=1768435200&v=beta&t=biNhC0tBHoykDuYqJ8Ywm1mMlWaKU_YVU1hzD17iC8g"
+        },
+        {
+          "quote": "Excellent programmer and coworker.",
+          "author": "Abraham Duno",
+          "role": "Front-End Developer, ServicePad",
+          "avatar": "https://media.licdn.com/dms/image/v2/D5603AQHduhgrD8uZ0w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1729696747936?e=1768435200&v=beta&t=aNVn2JxHIGFowUGCzF_R0nRcl0GtSyWdSPYUvqWr3Fo"
+        },
+        {
+          "quote": "Excellent coworker, very cooperative and proactive.",
+          "author": "José Pérez",
+          "role": "Backend Developer, ServicePad",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQGJHuEj0QP3FQ/profile-displayphoto-shrink_100_100/B4EZWQGPNbG0AU-/0/1741879310005?e=1768435200&v=beta&t=VC82VbBTtId6CT-sXueqKA73pgUHX_kkDQ7lgvcYNQI"
+        },
+        {
+          "quote": "I had the pleasure of working alongside Jorge for three years, and I can confidently say he is an exceptionally responsible and committed professional. Beyond his strong work ethic, Jorge possesses a very impressive grasp of the development stack and tremendous development skills, consistently delivering high-quality results. He's also the kind of person you can always rely on for support, always willing to lend a hand when needed. Jorge would be a valuable asset to any team.",
+          "author": "Diego Vielma",
+          "role": "Front-end Developer Ssr, Galicia Seguros",
+          "avatar": "https://media.licdn.com/dms/image/v2/D5603AQHVHavRRL-fcw/profile-displayphoto-scale_100_100/B56ZtCXtUbIAAc-/0/1766345071789?e=1768435200&v=beta&t=AU096nKzLyASPZce3oYyv3HMxoNQTSiiIHt_6c9q-i4"
+        },
+        {
+          "quote": "I had the opportunity to collaborate with Jorge Niño in different professional contexts, and his commitment and dedication are always evident in everything he does. One of the qualities I highlight most is his ability to face challenges calmly, analyzing each situation objectively and making sound decisions even under pressure. With a solid background as a frontend developer, Jorge demonstrates not only exceptional technical mastery but also great leadership capacity. His experience is reflected in the quality of his work, his strategic approach, and his ability to guide teams toward efficient and well-founded solutions. He is, without a doubt, a reliable, analytical professional with a clear vision, qualities that make him a great contribution to any team or project.",
+          "author": "Juan Villarroel",
+          "role": "Full Stack Developer, bnka",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQH6MS928SQCiw/profile-displayphoto-shrink_100_100/B4EZU.OlWIGgAU-/0/1740505765700?e=1768435200&v=beta&t=vSJ4k6Z3wu8sTLsZSJP600Vb1wWopHy7k0_YQUY3PwI"
+        },
+        {
+          "quote": "I wholeheartedly recommend Jorge to any organization that values both technical expertise and human quality. I have had the privilege of working with him for the last four years, and I can say with total confidence that he is an exceptional front-end developer. His great command of current technologies and his user-centered approach make him an invaluable asset to any development team. What I admire most about Jorge is his collaborative spirit. He is always willing to share knowledge, support his colleagues, and contribute to collective success, even under high-pressure conditions. His adaptability is equally impressive: Jorge quickly adapts to new technologies, evolving methodologies, and changing work environments without compromising his efficiency or motivation. I truly hope he continues to thrive and take advantage of new professional opportunities: he deserves all the successes that come his way.",
+          "author": "Ana Hernández",
+          "role": "Business Analyst, ServicePad",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E35AQFYH0UBk7Jl7w/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1728963461500?e=1767542400&v=beta&t=gZZphu7AEJ2I-dpfHBqT7cMzwk-LtFnGQXmPcLMEB90"
+        },
+        {
+          "quote": "Jorge is an excellent colleague. We worked together at the same company. He is a very responsible guy and very good at what he develops.",
+          "author": "Inés Natera",
+          "role": "Wordpress Developer, Sting Marketing",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQE3vDSVt60bSQ/profile-displayphoto-scale_100_100/B4EZnE5ZjvIoAg-/0/1759945005949?e=1768435200&v=beta&t=s4FQjjFxyKsNZeggGk44vbTuFmcql4lcPm0neZDoeL8"
+        },
+        {
+          "quote": "I had the pleasure of working with Jorge at Servicepad. His talent made him stand out as a front-end development team leader for a while during a peak moment for MVP development. He has skills using node.js and typescript.",
+          "author": "Randy Avila Salazar",
+          "role": "DevOps Engineer, Plexus Tech",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQGrpzmFENk84A/profile-displayphoto-scale_100_100/B4EZsSm9tGGQAc-/0/1765543764456?e=1768435200&v=beta&t=xbbTxcN1SnR4YuZQeA8epgg3fUCkvaxxG7ioKMO90ww"
+        },
+        {
+          "quote": "I have worked and studied alongside Jorge, and he has always proven to be a responsible person, with good technical judgment and ease for teamwork. He fulfills his tasks and constantly contributes to the development of projects.",
+          "author": "Jesús Calderin",
+          "role": "Front-end Developer, Alegra",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E03AQHihpYkcQsSog/profile-displayphoto-shrink_100_100/B4EZVe7MACGgAU-/0/1741054329244?e=1768435200&v=beta&t=j-mhFCW55TrMKaduwzc__Muai_dHD7Oy6pnP21-Delg"
+        },
+        {
+          "quote": "His professionalism and technical skills truly stand out. He’s a strong frontend developer, a reliable team player, and consistently delivers high-quality work. I’m confident he’ll be a valuable addition to any development team.",
+          "author": "Pedro Flores",
+          "role": "Backend Developer, ServicePad",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4D35AQGmeSrd9_v8oQ/profile-framedphoto-shrink_100_100/B4DZgvRHp3G8Ak-/0/1753139674078?e=1767542400&v=beta&t=u8Jy05ih1XJ2n1dpqvndFn4UvvwZMT9TQhXiS2-H17Q"
+        },
+        {
+          "quote": "A developer with great creativity, ingenuity, and leadership with the ability to tackle complex problems in an effective and insightful way. Jorge was a team lead, and during our time working together, I was able to observe his capabilities and skills, so I can vouch for his work and responsibility. His ability to adapt and design complement each other. Without further ado, I would recommend him for any job involving leadership, creativity, or Frontend development.",
+          "author": "Julio Moreno Yanes",
+          "role": "Python Engineer, FISOTEC",
+          "avatar": "https://media.licdn.com/dms/image/v2/D4E35AQFiKn2isfB0uQ/profile-framedphoto-shrink_100_100/B4EZbZZ_2jGkA0-/0/1747404193442?e=1767542400&v=beta&t=Wtr-XmrJAag5FZUUi-rlyi1FqyA1x3rORULGq6JPqow"
+        }
       ]
     },
     "contact": {
@@ -218,14 +437,14 @@
       "contactInfo": {
         "title": "Contact Information",
         "items": [
-          {"label": "Email", "value": "jorge@example.com", "href": "mailto:jorge@example.com"},
-          {"label": "Phone", "value": "+1 (555) 123-4567", "href": "tel:+15551234567"},
-          {"label": "Location", "value": "San Francisco, CA", "href": "#"}
+          {"label": "Email", "value": "jorgenino.dev@gmail.com", "href": "mailto:jorgenino.dev@gmail.com"},
+          {"label": "Phone", "value": "+58 (412) 350-6984", "href": "tel:+584123506984"},
+          {"label": "Location", "value": "Margarita Island, Venezuela", "href": "#"}
         ]
       },
       "availability": {
         "status": "Currently Available",
-        "description": "I'm currently open to new opportunities and exciting projects. Whether you need a full-time engineer or a freelance consultant, let's talk!"
+        "description": "I'm currently open to new opportunities and exciting projects. Whether you need a full-time developer or a freelance consultant, let's talk!"
       },
       "successMessage": "Message sent successfully! I'll get back to you soon.",
       "errorMessage": "Failed to send message. Please try again later."
@@ -239,8 +458,8 @@
         {"href": "#contact", "label": "Contact"}
       ],
       "social": [
-        {"icon": "Github", "href": "#", "label": "GitHub"},
-        {"icon": "Linkedin", "href": "#", "label": "LinkedIn"},
+        {"icon": "Github", "href": "https://github.com/devjorgenino", "label": "GitHub"},
+        {"icon": "Linkedin", "href": "https://www.linkedin.com/in/jorgeninor21/", "label": "LinkedIn"},
         {"icon": "Twitter", "href": "#", "label": "Twitter"}
       ]
     }
