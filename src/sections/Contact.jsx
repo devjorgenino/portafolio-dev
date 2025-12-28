@@ -58,11 +58,11 @@ export const Contact = () => {
       });
       setFormData({ name: "", email: "", message: "" });
     } catch (err) {
-      console.error("EmailJS error:", error);
+      console.error("EmailJS error:", err);
       setSubmitStatus({
         type: "error",
         message:
-          error.text || t('contact.errorMessage'),
+          err.message || err.text || t('contact.errorMessage'),
       });
     } finally {
       setIsLoading(false);
