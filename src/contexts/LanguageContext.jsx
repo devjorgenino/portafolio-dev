@@ -12,12 +12,16 @@ export const useLanguage = () => {
 };
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('es');
+  const [language, setLanguage] = useState(() => {
+    return localStorage.getItem('language') || 'es';
+  });
 
-  const changeLanguage = (lang) => {
-    if (lang === 'es' || lang === 'en') {
-      setLanguage(lang);
-      localStorage.setItem('language', lang);
+  const changeLanguage = (newLanguage) => {
+    if (newLanguage === 'es' || newLanguage === 'en') {
+      setLanguage(newLanguage);
+      localStorage.setItem('language', newLanguage);
+      // Dispatch custom event to notify about language change
+      window.dispatchEvent(new Event('languageChange'));
     }
   };
 
@@ -29,7 +33,7 @@ export const LanguageProvider = ({ children }) => {
   }, []);
 
   const t = (key) => {
-    const keys = key.split('.');
+    return key.split('.').reduce((obj, i) => obj?.[i], data[language]) || key;
     let value = data[language];
     
     for (const k of keys) {

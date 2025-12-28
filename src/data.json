@@ -27,6 +27,9 @@
       "spanish": "Español",
       "english": "Inglés"
     },
+    "meta": {
+      "title": "Jorge Niño - Portafolio"
+    },
     "about": {
       "title": "Sobre mí",
       "headline": ["Construyendo el futuro,", "un componente a la vez."],
@@ -238,6 +241,9 @@
     "language": {
       "spanish": "Spanish",
       "english": "English"
+    },
+    "meta": {
+      "title": "Jorge Niño - Portfolio"
     },
     "about": {
       "title": "About Me",
