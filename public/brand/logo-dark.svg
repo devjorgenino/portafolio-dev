@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gradNavyTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5F4F0"/>
+      <stop offset="100%" stop-color="#1D9E75"/>
+    </linearGradient>
+    <linearGradient id="gradTealNavy" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D9E75"/>
+      <stop offset="100%" stop-color="#F5F4F0"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="200" height="200" fill="#0A0A0A"/>
+  
+  <g stroke="#F5F4F0" stroke-width="0.8" opacity="0.15">
+    <line x1="10" y1="20" x2="10" y2="40"/>
+    <line x1="10" y1="20" x2="30" y2="20"/>
+    <circle cx="30" cy="20" r="1.5" fill="#F5F4F0"/>
+    <circle cx="10" cy="40" r="1.5" fill="#F5F4F0"/>
+    
+    <line x1="170" y1="20" x2="190" y2="20"/>
+    <line x1="190" y1="20" x2="190" y2="40"/>
+    <circle cx="170" cy="20" r="1.5" fill="#F5F4F0"/>
+    <circle cx="190" cy="40" r="1.5" fill="#F5F4F0"/>
+    
+    <line x1="10" y1="160" x2="10" y2="180"/>
+    <line x1="10" y1="180" x2="30" y2="180"/>
+    <circle cx="30" cy="180" r="1.5" fill="#F5F4F0"/>
+    <circle cx="10" cy="160" r="1.5" fill="#F5F4F0"/>
+    
+    <line x1="170" y1="180" x2="190" y2="180"/>
+    <line x1="190" y1="160" x2="190" y2="180"/>
+    <circle cx="170" cy="180" r="1.5" fill="#F5F4F0"/>
+    <circle cx="190" cy="160" r="1.5" fill="#F5F4F0"/>
+  </g>
+  
+  <g stroke="#1D9E75" stroke-width="0.3" opacity="0.2">
+    <line x1="0" y1="50" x2="200" y2="50"/>
+    <line x1="0" y1="150" x2="200" y2="150"/>
+    <line x1="50" y1="0" x2="50" y2="200"/>
+    <line x1="150" y1="0" x2="150" y2="200"/>
+  </g>
+  
+  <g transform="translate(50, 55)">
+    <path d="M30 0 L30 55 Q30 80 8 80 Q-12 80 -12 65" 
+          fill="none" 
+          stroke="url(#gradNavyTeal)" 
+          stroke-width="13" 
+          stroke-linecap="round"/>
+    <path d="M30 0 L30 55 Q30 80 8 80 Q-12 80 -12 65" 
+          fill="none" 
+          stroke="#1D9E75" 
+          stroke-width="1.5" 
+          stroke-linecap="round"
+          opacity="0.4"/>
+  </g>
+  
+  <g transform="translate(105, 55)">
+    <path d="M0 0 L0 80 L50 0 L50 80" 
+          fill="none" 
+          stroke="url(#gradTealNavy)" 
+          stroke-width="13" 
+          stroke-linejoin="round"
+          stroke-linecap="round"/>
+    <path d="M0 0 L0 80 L50 0 L50 80" 
+          fill="none" 
+          stroke="#1D9E75" 
+          stroke-width="1.5" 
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          opacity="0.4"/>
+  </g>
+  
+  <circle cx="165" cy="145" r="3" fill="#1D9E75" opacity="0.8"/>
+  <circle cx="165" cy="145" r="1" fill="#0A0A0A"/>
+  
+  <path d="M165 35 L175 35 L175 45" fill="none" stroke="#F5F4F0" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+</svg>
