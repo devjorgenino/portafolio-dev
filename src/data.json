@@ -3,16 +3,33 @@
     "navbar": {
       "logo": "JN",
       "links": [
-        { "href": "#about", "label": "Sobre mí" },
-        { "href": "#projects", "label": "Proyectos" },
-        { "href": "#experience", "label": "Experiencia" },
-        { "href": "#testimonials", "label": "Testimonios" }
+        {
+          "href": "#about",
+          "label": "Sobre mí"
+        },
+        {
+          "href": "#projects",
+          "label": "Proyectos"
+        },
+        {
+          "href": "#experience",
+          "label": "Experiencia"
+        },
+        {
+          "href": "#testimonials",
+          "label": "Testimonios"
+        }
       ],
       "contactButton": "Contactarme"
     },
     "hero": {
       "badge": "Desarrollador Frontend • Especialista React",
-      "title": ["Creando experiencias", "digitales", "con", "precisión."],
+      "title": [
+        "Creando experiencias",
+        "digitales",
+        "con",
+        "precisión."
+      ],
       "description": "Hola, soy Jorge Niño — un desarrollador frontend especializado en React, Next.js y TypeScript. Construyo aplicaciones web escalables y de alto rendimiento que a los usuarios encantan.",
       "contactButton": "Contactarme",
       "downloadCV": "Descargar CV",
@@ -52,7 +69,10 @@
     },
     "about": {
       "title": "Sobre mí",
-      "headline": ["Construyendo el futuro,", "un componente a la vez."],
+      "headline": [
+        "Construyendo el futuro,",
+        "un componente a la vez."
+      ],
       "paragraphs": [
         "Soy un desarrollador frontend apasionado con más de 6 años de experiencia creando productos digitales que marcan la diferencia. Mi viaje comenzó con curiosidad por cómo funcionan las cosas en la web, y ha evolucionado hasta convertirme en un experto profundo en tecnologías frontend modernas.",
         "Me especializo en React, Next.js y TypeScript, construyendo todo desde elegantes páginas de aterrizaje hasta complejas aplicaciones empresariales. Mi enfoque combina excelencia técnica con un ojo agudo para el diseño y la experiencia del usuario.",
@@ -80,7 +100,10 @@
     },
     "projects": {
       "title": "Trabajo Destacado",
-      "headline": ["Proyectos que", "marcan la diferencia."],
+      "headline": [
+        "Proyectos que",
+        "marcan la diferencia."
+      ],
       "description": "Una selección de mi trabajo reciente, desde complejas aplicaciones web hasta herramientas innovadoras que resuelven problemas del mundo real.",
       "viewAllButton": "Ver Todos los Proyectos",
       "items": [
@@ -88,7 +111,12 @@
           "title": "ServicePad",
           "description": "ServicePad es una plataforma ERP SaaS que actualiza, agiliza y automatiza los procesos existentes de las Compañias Gestoras de contratos RTO/LTO. Ofreciendo a la industria de construcción portátil la administración eficiente de sus contratos. A diferencia de los competidores actuales, nos adaptamos a las necesidades del cliente a medida que evoluciona el marketplace.",
           "image": "/projects/servicepad-project.png",
-          "tags": ["React", "Next.js", "Typescript", "NodeJS"],
+          "tags": [
+            "React",
+            "Next.js",
+            "Typescript",
+            "NodeJS"
+          ],
           "link": "https://servicepad.com/",
           "github": "https://github.com/devjorgenino/sp-frontend"
         },
@@ -110,11 +138,17 @@
           "github": "https://github.com/devjorgenino/vitaliagym"
         },
         {
-          "title": "Citas Médicas",
+          "title": "Agenda VeGa",
           "description": "Herramienta para reemplazar el agendamiento manual (papel/Excel) por una solución web o móvil que centralice la información de pacientes, médicos y horarios, mejorando la eficiencia y reduciendo errores en la gestión de citas médicas para clínicas y hospitales.",
           "image": "/projects/citasmedicas-project.png",
-          "tags": ["React", "AI", "Python", "FastAPI", "PostgreSQL"],
-          "link": "#",
+          "tags": [
+            "React",
+            "AI",
+            "Python",
+            "FastAPI",
+            "PostgreSQL"
+          ],
+          "link": "https://app.agendavega.com/",
           "github": "https://github.com/Randyavila/CitasMedicas"
         },
         {
@@ -136,7 +170,12 @@
           "title": "OpenCook",
           "description": "Tu marca de tecnología alimentaria, para ayudarte en los procesos del hogar o industria. Nuestra pasión es mantener saludable tu vida y tu bolsillo!!!.",
           "image": "/projects/opencook-project.jpg",
-          "tags": ["PHP", "Bootstrap", "MongoDB", "PostgreSQL"],
+          "tags": [
+            "PHP",
+            "Bootstrap",
+            "MongoDB",
+            "PostgreSQL"
+          ],
           "link": "#",
           "github": "https://github.com/devjorgenino/membresia-opencook"
         },
@@ -159,7 +198,10 @@
     },
     "experience": {
       "title": "Carrera Profesional",
-      "headline": ["Experiencia que", "habla por sí sola."],
+      "headline": [
+        "Experiencia que",
+        "habla por sí sola."
+      ],
       "description": "Una línea de tiempo de mi crecimiento profesional, desde principiante curioso hasta ingeniero senior liderando equipos y construyendo productos a escala.",
       "items": [
         {
@@ -235,14 +277,22 @@
           "role": "Desarrollador Freelance",
           "company": "Trabajador Independiente",
           "description": "Entregué soluciones web personalizadas para pequeñas empresas y startups. Construí 15+ sitios web y aplicaciones, manejando todo desde el diseño hasta el despliegue.",
-          "technologies": ["JavaScript", "PHP", "WordPress", "MySQL"],
+          "technologies": [
+            "JavaScript",
+            "PHP",
+            "WordPress",
+            "MySQL"
+          ],
           "current": false
         }
       ]
     },
     "testimonials": {
       "title": "Lo que dice la gente",
-      "headline": ["Palabras amables de", "personas increíbles."],
+      "headline": [
+        "Palabras amables de",
+        "personas increíbles."
+      ],
       "items": [
         {
           "quote": "Jorge es uno de los ingenieros más talentosos con los que he trabajado. Su atención al detalle y capacidad para traducir requisitos complejos en soluciones elegantes es notable.",
@@ -338,7 +388,10 @@
     },
     "contact": {
       "title": "Ponte en Contacto",
-      "headline": ["Construyamos", "algo genial."],
+      "headline": [
+        "Construyamos",
+        "algo genial."
+      ],
       "description": "¿Tienes un proyecto en mente? Me encantaría saber sobre él. Envíame un mensaje y hablemos sobre cómo podemos trabajar juntos.",
       "form": {
         "name": "Nombre",
@@ -382,10 +435,22 @@
     "footer": {
       "copyright": "© {year} Jorge Niño. Todos los derechos reservados.",
       "links": [
-        { "href": "#about", "label": "Sobre mí" },
-        { "href": "#projects", "label": "Proyectos" },
-        { "href": "#experience", "label": "Experiencia" },
-        { "href": "#contact", "label": "Contacto" }
+        {
+          "href": "#about",
+          "label": "Sobre mí"
+        },
+        {
+          "href": "#projects",
+          "label": "Proyectos"
+        },
+        {
+          "href": "#experience",
+          "label": "Experiencia"
+        },
+        {
+          "href": "#contact",
+          "label": "Contacto"
+        }
       ],
       "social": [
         {
@@ -398,7 +463,11 @@
           "href": "https://www.linkedin.com/in/jorgeninor21/",
           "label": "LinkedIn"
         },
-        { "icon": "Twitter", "href": "#", "label": "Twitter" }
+        {
+          "icon": "Twitter",
+          "href": "#",
+          "label": "Twitter"
+        }
       ]
     }
   },
@@ -406,16 +475,33 @@
     "navbar": {
       "logo": "JN",
       "links": [
-        { "href": "#about", "label": "About" },
-        { "href": "#projects", "label": "Projects" },
-        { "href": "#experience", "label": "Experience" },
-        { "href": "#testimonials", "label": "Testimonials" }
+        {
+          "href": "#about",
+          "label": "About"
+        },
+        {
+          "href": "#projects",
+          "label": "Projects"
+        },
+        {
+          "href": "#experience",
+          "label": "Experience"
+        },
+        {
+          "href": "#testimonials",
+          "label": "Testimonials"
+        }
       ],
       "contactButton": "Contact Me"
     },
     "hero": {
       "badge": "Frontend Developer • React Specialist",
-      "title": ["Crafting", "digital", "experiences with", "precision."],
+      "title": [
+        "Crafting",
+        "digital",
+        "experiences with",
+        "precision."
+      ],
       "description": "Hi, I'm Jorge Niño — a frontend developer specializing in React, Next.js, and TypeScript. I build scalable, performant web applications that users love.",
       "contactButton": "Contact Me",
       "downloadCV": "Download CV",
@@ -455,7 +541,10 @@
     },
     "about": {
       "title": "About Me",
-      "headline": ["Building the future,", "one component at a time."],
+      "headline": [
+        "Building the future,",
+        "one component at a time."
+      ],
       "paragraphs": [
         "I'm a passionate frontend developer with over 6 years of experience crafting digital products that make a difference. My journey started with a curiosity for how things work on the web, and it has evolved into a deep expertise in modern frontend technologies.",
         "I specialize in React, Next.js, and TypeScript, building everything from sleek landing pages to complex enterprise applications. My approach combines technical excellence with a keen eye for design and user experience.",
@@ -483,7 +572,10 @@
     },
     "projects": {
       "title": "Featured Work",
-      "headline": ["Projects that", "make an impact."],
+      "headline": [
+        "Projects that",
+        "make an impact."
+      ],
       "description": "A selection of my recent work, from complex web applications to innovative tools that solve real-world problems.",
       "viewAllButton": "View All Projects",
       "items": [
@@ -491,7 +583,12 @@
           "title": "ServicePad",
           "description": "ServicePad is a SaaS ERP platform that updates, streamlines, and automates existing processes for RTO/LTO Contract Management Companies. It offers the portable building industry efficient contract administration. Unlike current competitors, we adapt to client needs as the marketplace evolves.",
           "image": "/projects/servicepad-project.png",
-          "tags": ["React", "Next.js", "Typescript", "NodeJS"],
+          "tags": [
+            "React",
+            "Next.js",
+            "Typescript",
+            "NodeJS"
+          ],
           "link": "https://stage.servicepad.com/auth/login",
           "github": "https://github.com/devjorgenino/sp-frontend"
         },
@@ -513,11 +610,17 @@
           "github": "https://github.com/devjorgenino/vitaliagym"
         },
         {
-          "title": "Citas Médicas",
+          "title": "Agenda VeGa",
           "description": "A tool to replace manual scheduling (paper/Excel) with a web or mobile solution that centralizes patient, doctor, and schedule information, improving efficiency and reducing errors in medical appointment management for clinics and hospitals.",
           "image": "/projects/citasmedicas-project.png",
-          "tags": ["React", "AI", "Python", "FastAPI", "PostgreSQL"],
-          "link": "#",
+          "tags": [
+            "React",
+            "AI",
+            "Python",
+            "FastAPI",
+            "PostgreSQL"
+          ],
+          "link": "https://app.agendavega.com/",
           "github": "https://github.com/Randyavila/CitasMedicas"
         },
         {
@@ -539,7 +642,12 @@
           "title": "OpenCook",
           "description": "Your food technology brand, helping you with household or industrial processes. Our passion is keeping your life and your wallet healthy!!!",
           "image": "/projects/opencook-project.jpg",
-          "tags": ["PHP", "Bootstrap", "MongoDB", "PostgreSQL"],
+          "tags": [
+            "PHP",
+            "Bootstrap",
+            "MongoDB",
+            "PostgreSQL"
+          ],
           "link": "#",
           "github": "https://github.com/devjorgenino/membresia-opencook"
         },
@@ -562,7 +670,10 @@
     },
     "experience": {
       "title": "Career Journey",
-      "headline": ["Experience that", "speaks volumes."],
+      "headline": [
+        "Experience that",
+        "speaks volumes."
+      ],
       "description": "A timeline of my professional growth, from curious beginner to senior engineer leading teams and building products at scale.",
       "items": [
         {
@@ -638,14 +749,22 @@
           "role": "Freelance Developer",
           "company": "Self-Employed",
           "description": "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-          "technologies": ["JavaScript", "PHP", "WordPress", "MySQL"],
+          "technologies": [
+            "JavaScript",
+            "PHP",
+            "WordPress",
+            "MySQL"
+          ],
           "current": false
         }
       ]
     },
     "testimonials": {
       "title": "What People Say",
-      "headline": ["Kind words from", "amazing people."],
+      "headline": [
+        "Kind words from",
+        "amazing people."
+      ],
       "items": [
         {
           "quote": "Jorge is one of the most talented engineers I have worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
@@ -741,7 +860,10 @@
     },
     "contact": {
       "title": "Get In Touch",
-      "headline": ["Let's build", "something great."],
+      "headline": [
+        "Let's build",
+        "something great."
+      ],
       "description": "Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how we can work together.",
       "form": {
         "name": "Name",
@@ -785,10 +907,22 @@
     "footer": {
       "copyright": "© {year} Jorge Niño. All rights reserved.",
       "links": [
-        { "href": "#about", "label": "About" },
-        { "href": "#projects", "label": "Projects" },
-        { "href": "#experience", "label": "Experience" },
-        { "href": "#contact", "label": "Contact" }
+        {
+          "href": "#about",
+          "label": "About"
+        },
+        {
+          "href": "#projects",
+          "label": "Projects"
+        },
+        {
+          "href": "#experience",
+          "label": "Experience"
+        },
+        {
+          "href": "#contact",
+          "label": "Contact"
+        }
       ],
       "social": [
         {
@@ -801,7 +935,11 @@
           "href": "https://www.linkedin.com/in/jorgeninor21/",
           "label": "LinkedIn"
         },
-        { "icon": "Twitter", "href": "#", "label": "Twitter" }
+        {
+          "icon": "Twitter",
+          "href": "#",
+          "label": "Twitter"
+        }
       ]
     }
   }
